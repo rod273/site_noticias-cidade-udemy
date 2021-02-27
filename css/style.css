@@ -74,3 +74,9 @@ body.fotos #navegacao a#fotos{
     cursor: text;
 }
 
+/* configurando o layout tres colunas */
+
+#conteudo {
+    margin-top: 60px;
+    background: blue;
+}
