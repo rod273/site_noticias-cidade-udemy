@@ -16,7 +16,6 @@ body {
 }
 
 #topo {
-    height: 150px;
     background: url(../img/detalhe-topo.png) no-repeat right top;
     padding-top: 25px;
 }
@@ -38,7 +37,6 @@ ul {
     margin-top: 30px;
     background: #b10333;
     float: left;
-    height: 50px;
 }
 
 #topo ul li {
@@ -64,6 +62,15 @@ ul {
     color: #69001d;
 }
 
-.home:hover {
-    color: aqua;
+body.home #navegacao a#home,
+body.brasil #navegacao a#brasil,
+body.internacional #navegacao a#internacional,
+body.economia #navegacao a#economia,
+body.saude #navegacao a#saude,
+body.ciencia #navegacao a#ciencia,
+body.fotos #navegacao a#fotos{
+    color: #fff;
+    background: #de003e;
+    cursor: text;
 }
+
